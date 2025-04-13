@@ -1,17 +1,29 @@
-# Alzhaimer classification using Magnetic Resonance Images (MRI)
-Project to classify Alzhaimer's disease through brain MRI using CNN and U-Net to improve image quality.
+# Alzheimer's Disease Classification from MRI using CNN and U-Net
 
-## Libraries used:
-- Tensorflow.
-- Pandas.
-- Numpy.
-- Matplotlib.
-- Scikit-learn.
-## Dataset:
-The Dataset has images of brain magnetic resonance collected by Washington University of Medicine in St. Louis with the name of OASIS as an open access dataset for research from the scientific community, the whole dataset has 80,000 2D images from 461 patients with slices from the MRI within 100-160 range, this images reflect four classes: demented (488) , very mild demented (13,725) , mild demented (5,002) and non-demented (67,222) also showing all the progression of the disease. 
-- https://sites.wustl.edu/oasisbrains/
-## Methodology:
-- Data Preprocessing.
-- Model Training.
-- Model Evaluation.
-## Results:
+This project aims to improve the classification of Alzheimer's disease stages by combining advanced image denoising techniques (U-Net architectures) with convolutional neural networks (CNNs). The model processes noisy MRI brain scans and classifies them into different levels of dementia severity.
+
+## Project Overview
+
+Accurate and early detection of Alzheimer's disease is key for improving patient outcomes. This study investigates how preprocessing noisy MRI images using various denoising models enhances the performance of deep learning classifiers.
+
+### Key Features
+
+- MRI image denoising using:
+  - Autoencoder
+  - Classic U-Net
+  - Residual U-Net
+- Alzheimer's classification using:
+  - Custom CNN
+  - ResNet50 (transfer learning)
+- Ensemble model combining Residual U-Net + Custom CNN
+- Evaluation with metrics: Accuracy, Precision, Recall, PSNR, SSIM
+
+## Technologies Used
+
+- Python 3.x
+- TensorFlow / Keras
+- NumPy, Pandas, Matplotlib
+- Scikit-learn
+- Jupyter Notebooks
+
+## Project Structure
