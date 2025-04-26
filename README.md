@@ -50,8 +50,8 @@ MRI data used from the [OASIS dataset (2009)](https://www.oasis-brains.org/), co
 
 ##  Research Goals
 
-- Evaluate how denoising affects CNN-based classification performance
-- Compare custom-built CNNs with transfer learning models
+- Compare different denoising techniques processing MRI
+- Compare custom-built CNNs with transfer learning model.
 - Explore the effectiveness of an ensemble approach for real-world noisy MRI images
 
 ##  Author
