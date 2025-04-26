@@ -26,14 +26,14 @@ Accurate and early detection of Alzheimer's disease is key for improving patient
 - Scikit-learn
 - Jupyter Notebooks
 
-## Results Summary
+## Best Results Summary
 
 | Model            | Accuracy | Precision | Recall | PSNR   | SSIM  |
 |------------------|----------|-----------|--------|--------|-------|
-| ResNet50         | 0.88     | 0.88      | 0.88   |   -    |   -   |
-| Custom CNN       | 0.88     | 0.88      | 0.88   |   -    |   -   |
-| Residual U-Net   |   -      |    -      |   -    | 30.21  | 0.922 |
-| Ensemble Model   | 0.82     | 0.82      | 0.82   |   -    |   -   |
+| ResNet50 (Clean images)        | 0.88     | 0.88      | 0.88   |   -    |   -   |
+| Custom CNN (Clean images)       | 0.88     | 0.88      | 0.88   |   -    |   -   |
+| Residual U-Net (Noisy images)   |   -      |    -      |   -    | 30.21  | 0.922 |
+| Ensemble Model (Noisi images)   | 0.82     | 0.82      | 0.82   |   -    |   -   |
 
  Residual U-Net was the best denoising model.  
  Ensemble model improved recall by +0.21 pts on noisy images.
